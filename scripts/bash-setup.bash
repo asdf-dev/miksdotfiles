@@ -8,7 +8,7 @@ git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
 
 #copy theme to bash
 rm -rf ~/bash_it/themes/bobby
-cp -r ~/Desktop/MiksDotfiles/bobby ~/bash_it/themes
+cp -r ~/Desktop/MiksDotfiles/bobby/ ~/.bash_it/themes
 
 #copy alias
-cp -r ~/Desktop/MiksDotfiles/custom.aliases.bash ~/bash_it/aliases
+cp -r ~/Desktop/MiksDotfiles/custom.aliases.bash ~/.bash_it/aliases
