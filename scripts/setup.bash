@@ -1,3 +1,4 @@
+#!/bin/bash/env bash
 
 echo "Installing software"
 
@@ -11,5 +12,26 @@ echo "Installing..."
 sudo apt-get update
 sudo apt-get install -y curl
 
-#Tweak
-sudo apt-get install -y unity-tweak-tool
+#gnome tweaker
+sudo apt install -y gnome-tweaks
+
+# Cisco VPN
+sudo apt install -y network-manager-openconnect-gnome network-manager-openconnect openconnect vpnc openvpn vpnc-scripts
+
+#vim editor
+sudo apt install -y vim
+
+#copyq
+sudo add-apt-repository ppa:hluk/copyq
+sudo apt update
+sudo apt install -y copyq
+
+#fuck alias
+sudo apt update
+sudo apt install -y python3-dev python3-pip python3-setuptools
+sudo pip3 install -y thefuck
+
+#enable gesttings config
+sudo apt install -y dconf-editor
+
+echo "done with aptget"

@@ -1,3 +1,4 @@
+#!/bin/bash/env bash
 #Code
 echo "installing code software"
 
@@ -10,4 +11,10 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 sudo apt install -y docker-ce
 
+if [ ! -d ~/source ] 
+then
+    mkdir -p ~/source
+fi 
 
+
+echo "done installing code software"

@@ -1,14 +1,25 @@
+#!/bin/bash
+
 echo "Setting up Ubuntu..."
 
-echo "Checking for SSH"
-if [ ! -d $HOME/.ssh/ ]; then
-    echo "SSH was not found - EXIT SCRIPT!"
-    exit
-fi
-
-echo "Setting right permissions for SSH"
-chmod -v 700 ~/.ssh
-chmod -v 600 ~/.ssh/id_rsa
 
 #Install git
-source scripts/setup
+source scripts/setup.bash
+
+#sdkman
+source scripts/sdkmansetup.bash
+
+#coding software
+source scripts/codesoftware.bash
+
+#bash-it
+source scripts/bash-setup.bash
+
+#snap
+source scripts/snap.bash
+
+#remove mail icon remember to relog
+sudo apt-get remove indicator-messages
+
+#gsettings
+dconf load / < ~/Desktop/MikDotfiles/dump.dconf

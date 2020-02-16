@@ -1,0 +1,4 @@
+sublime text
+	tilføj i settings
+	{ "hot_exit": false, "remember_open_files": false } 
+
