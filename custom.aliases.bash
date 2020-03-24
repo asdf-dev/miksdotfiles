@@ -7,7 +7,7 @@ alias gwcc='./gradlew clean check'
 alias gw='./gradlew'
 
 #Clean
-alias cleanthisfucker='sudo apt-get clean; sudo apt-get autoremove; sudo apt-get autoclean;'
+alias cleanthisfucker='sudo apt-get clean; sudo apt-get autoremove; sudo apt-get autoclean;rm -ir ~/.local/share/Trash/*;'
 #DockerClean
 alias cleanthisdocker='docker kill $(docker ps -q); docker rm $(docker ps -a -q); docker rmi $(docker images -q -f dangling=true); docker rmi $(docker images -q);'
 #bluetooth
@@ -28,10 +28,11 @@ alias pull='git pull'
 alias push='git push'
 alias forcepush='git push --force-with-lease'
 
+#home folder
+alias hf='cd ~/'
+
 #noter
-alias note='vim ~/Documents/note.txt'
-
-
+alias note='subl ~/Documents/note.txt; exit'
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 [[ -s "/home/dudette/.sdkman/bin/sdkman-init.sh" ]] && source "/home/dudette/.sdkman/bin/sdkman-init.sh"

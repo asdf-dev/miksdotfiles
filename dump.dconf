@@ -72,8 +72,8 @@ sleep-inactive-battery-type='nothing'
 [org/gnome/shell]
 app-picker-view=uint32 1
 command-history=['r']
-enabled-extensions=['desktop-icons@csoriano', 'ubuntu-appindicators@ubuntu.com', 'ubuntu-dock@ubuntu.com', 'multi-monitors-add-on@spin83', 'caffeine@patapon.info', 'middleclickclose@paolo.tranquilli.gmail.com', 'openweather-extension@jenslody.de', 'no-screen-blank@example.com', 'autohide-battery@sitnik.ru', 'gsconnect@andyholmes.github.io']
-favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'intellij-idea-ultimate_intellij-idea-ultimate.desktop', 'sublime-text_subl.desktop', 'gitkraken_gitkraken.desktop', 'postman_postman.desktop', 'dbeaver.desktop', 'slack_slack.desktop', 'org.gnome.Terminal.desktop', 'spotify_spotify.desktop']
+enabled-extensions=['desktop-icons@csoriano', 'ubuntu-appindicators@ubuntu.com', 'ubuntu-dock@ubuntu.com', 'multi-monitors-add-on@spin83', 'caffeine@patapon.info', 'middleclickclose@paolo.tranquilli.gmail.com', 'openweather-extension@jenslody.de', 'no-screen-blank@example.com', 'autohide-battery@sitnik.ru', 'gsconnect@andyholmes.github.io', 'windowoverlay-icons@sustmidown.centrum.cz', 'donotdisturb-button@nls1729']
+favorite-apps=['firefox.desktop', 'org.gnome.Nautilus.desktop', 'intellij-idea-ultimate_intellij-idea-ultimate.desktop', 'sublime-text_subl.desktop', 'gitkraken.desktop', 'postman_postman.desktop', 'dbeaver.desktop', 'slack_slack.desktop', 'org.gnome.Terminal.desktop']
 
 [org/gnome/shell/extensions/dash-to-dock]
 dock-fixed=false
