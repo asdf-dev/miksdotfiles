@@ -30,3 +30,8 @@ alias forcepush='git push --force-with-lease'
 
 #noter
 alias note='vim ~/Documents/note.txt'
+
+
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+[[ -s "/home/dudette/.sdkman/bin/sdkman-init.sh" ]] && source "/home/dudette/.sdkman/bin/sdkman-init.sh"
