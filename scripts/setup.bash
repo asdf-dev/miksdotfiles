@@ -9,7 +9,6 @@ sudo apt-get -y upgrade
 echo "Installing..."
 
 # latest cURL
-sudo apt-get update
 sudo apt-get install -y curl
 
 #gnome tweaker
@@ -23,11 +22,9 @@ sudo apt install -y vim
 
 #copyq
 sudo add-apt-repository ppa:hluk/copyq
-sudo apt update
 sudo apt install -y copyq
 
 #fuck alias
-sudo apt update
 sudo apt install -y python3-dev python3-pip python3-setuptools
 sudo pip3 install -y thefuck
 

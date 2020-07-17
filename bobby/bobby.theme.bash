@@ -34,3 +34,6 @@ THEME_CLOCK_COLOR=${THEME_CLOCK_COLOR:-"$bold_blue"}
 THEME_CLOCK_FORMAT=${THEME_CLOCK_FORMAT:-"%H:%M:%S"}
 
 safe_append_prompt_command prompt_command
+
+
+#EXAMPEL: 13:24:33💻USERNAME @ ~/Desktop

@@ -28,11 +28,8 @@ alias pull='git pull'
 alias push='git push'
 alias forcepush='git push --force-with-lease'
 
-#home folder
-alias hf='cd ~/'
-
 #noter
 alias note='subl ~/Documents/note.txt; exit'
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-[[ -s "/home/dudette/.sdkman/bin/sdkman-init.sh" ]] && source "/home/dudette/.sdkman/bin/sdkman-init.sh"
+source "$HOME/.sdkman/bin/sdkman-init.sh"

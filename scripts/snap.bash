@@ -8,10 +8,7 @@ echo "Installing snaps..."
 sudo snap install postman
 
 #gitkraken
-sudo snap install gitkraken
-
-#spotify
-#sudo snap install spotify
+#sudo snap install gitkraken
 
 #slack
 sudo snap install slack --classic
@@ -26,3 +23,6 @@ echo "Done installing snaps!"
 
 #wormhole
 sudo snap install wormhole
+
+#IDE
+sudo snap install intellij-idea-ultimate --classic
