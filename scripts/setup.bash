@@ -31,4 +31,9 @@ sudo pip3 install -y thefuck
 #enable gesttings config
 sudo apt install -y dconf-editor
 
+#npm for angular
+sudo apt install -y npm
+npm install -g @angular/cli
+
+
 echo "done with aptget"
