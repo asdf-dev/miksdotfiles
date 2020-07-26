@@ -26,3 +26,6 @@ sudo snap install wormhole
 
 #IDE
 sudo snap install intellij-idea-ultimate --classic
+
+#IDE 2 visual studio code
+sudo snap install code --classic
