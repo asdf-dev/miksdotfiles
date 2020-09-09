@@ -1,4 +1,5 @@
 alias cc='clear'
+alias ll='ls -alhF'
 alias sdn='shutdown -P now'
 alias ..='cd ~/Source; ls'
 
