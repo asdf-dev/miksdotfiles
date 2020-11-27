@@ -25,4 +25,4 @@ sudo apt-get remove indicator-messages
 source scripts/bash-setup.bash
 
 #gsettings
-dconf load / < ~/Desktop/MiksDotfiles/dump.dconf
+dconf load / < ~/Desktop/miksdotfiles/dump.dconf
