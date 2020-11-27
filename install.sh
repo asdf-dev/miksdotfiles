@@ -15,6 +15,9 @@ source scripts/codesoftware.bash
 #snap
 source scripts/snap.bash
 
+#ssh-setup
+source scripts/ssh-setup.bash
+
 #remove mail icon remember to relog
 sudo apt-get remove indicator-messages
 
@@ -22,4 +25,4 @@ sudo apt-get remove indicator-messages
 source scripts/bash-setup.bash
 
 #gsettings
-dconf load / < ~/Desktop/MikDotfiles/dump.dconf
+dconf load / < ~/Desktop/MiksDotfiles/dump.dconf
