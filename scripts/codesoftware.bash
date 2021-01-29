@@ -11,9 +11,9 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 sudo apt update
 sudo apt install -y docker-ce
 
-if [ ! -d ~/source ] 
+if [ ! -d ~/Source ] 
 then
-    mkdir -p ~/source
+    mkdir -p ~/Source
 fi 
 
 
