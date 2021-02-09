@@ -10,3 +10,8 @@ sublime text
 	tilføj i settings
 	 "hot_exit": false, "remember_open_files": false  
 
+
+dash to dock
+	Run the following:
+		sudo mv /usr/share/gnome-shell/extensions/mv ubuntu-dock@ubuntu.com{,.bak}
+		Press ALT + F2 and type r in the input.
