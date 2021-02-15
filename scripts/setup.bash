@@ -25,8 +25,12 @@ sudo add-apt-repository ppa:hluk/copyq
 sudo apt install -y copyq
 
 #fuck alias
-sudo apt install -y python3-dev python3-pip python3-setuptools
-sudo pip3 install -y thefuck
+sudo apt install -y thefuck
+
+#Ansible 
+sudo apt install software-properties-common
+sudo apt-add-repository --yes --update ppa:ansible/ansible
+sudo apt install ansible
 
 #enable gesttings config
 sudo apt install -y dconf-editor
