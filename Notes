@@ -8,7 +8,8 @@ install from cli with sudo apt install ./LOCATION_OF_FILE
 
 sublime text
 	tilføj i settings
-	 "hot_exit": false, "remember_open_files": false  
+	 "hot_exit": false, "remember_open_files": false,
+	 "ensure_newline_at_eof_on_save": true
 
 
 dash to dock
