@@ -20,3 +20,17 @@ dash to dock
 
 dual boot windows time
 	timedatectl set-local-rtc 1
+
+
+useful gnome extensions
+	dash to dock
+		A dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available.
+
+	no screen blank
+		Disable blanking the screen after showing the lock screen
+
+	Quick Close in Overview
+		Close windows with a button click (the middle one by default) when in overview mode
+
+	WindowOverlay Icons
+		Add application icons to window overview
