@@ -11,17 +11,12 @@ if [ ! $SDKMAN_VERSION ]; then
 fi
 
 echo "Setting up sdkman..."
-#sdk install java
-#sdk install grails
-#sdk install groovy
-#sdk install gradle
-sdk install micronaut
 
-#current project
 sdk install java 
 sdk install grails 
 sdk install groovy 
 sdk install gradle
+sdk install micronaut
 
 
 

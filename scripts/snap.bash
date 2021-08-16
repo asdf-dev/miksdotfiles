@@ -8,7 +8,7 @@ echo "Installing snaps..."
 sudo snap install postman
 
 #gitkraken
-#sudo snap install gitkraken
+sudo snap install gitkraken
 
 #slack
 sudo snap install slack --classic
