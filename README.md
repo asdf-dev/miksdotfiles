@@ -36,6 +36,7 @@ make sure docker has needed permissions - do "docker ps" to check
  * sublime text
  * debeaver-ce
  * gitkraken
+ * MS Teams
 
 ###IDE:
 * intellij idea ultimate

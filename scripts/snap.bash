@@ -29,3 +29,12 @@ sudo snap install intellij-idea-ultimate --classic
 
 #IDE 2 visual studio code
 sudo snap install code --classic
+
+#ms teams
+sudo snap install teams
+
+# gitkraken
+sudo snap install gitkraken --classic
+
+# authy
+#sudo snap install authy
