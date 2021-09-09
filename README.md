@@ -1,4 +1,4 @@
-##How to use:
+## How to use:
 `git clone https://github.com/asdf-dev/miksdotfiles.git ~/Desktop/miksdotfiles`
 
 then:
@@ -10,10 +10,10 @@ then:
 make sure docker has needed permissions - do "docker ps" to check
 
 ----
-##What's being installed:
+##W hat's being installed:
 
 
-###CLI:
+### CLI:
  * Bash-it
  * with custome theme - checkout bobby folder to see or make your own theme.
  * Vim
@@ -23,14 +23,14 @@ make sure docker has needed permissions - do "docker ps" to check
 
 
 
-###SDK's:
+### SDK's:
  * Java:latest
  * grails:latest
  * groovy:latest
  * gradle:latest
  * micronaut:latest
 
-###programs:
+### programs:
  * postman
  * slack
  * sublime text
@@ -38,11 +38,11 @@ make sure docker has needed permissions - do "docker ps" to check
  * gitkraken
  * MS Teams
 
-###IDE:
+### IDE:
 * intellij idea ultimate
 * visual code
 
-###misc:
+### misc:
  * Docker
  * Sdkman
  * gnome tweaker
@@ -52,9 +52,9 @@ make sure docker has needed permissions - do "docker ps" to check
 
 ## settings:
 
-###intelij
+### intelij
 if you want to use my custom keybinds use settings.zip
 
-###ubuntu settings
+### ubuntu settings
 check out [dump.dconf](dump.dconf) I suggest using: 'dash to dock'.
 See [Notes](Notes) for ubuntu tweaks
