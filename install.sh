@@ -24,5 +24,8 @@ sudo apt-get remove indicator-messages
 #bash-it
 source scripts/bash-setup.bash
 
+#gnome extensions
+source scripts/gnomeExtensions.bash
+
 #gsettings
 dconf load / < ~/Desktop/miksdotfiles/dump.dconf
